@@ -169,148 +169,148 @@ const routes: PartialRouteObject[] = [
       }
     ]
   },
-  // // MAIN MENU ROUTER
-  // {
-  //   path: 'main',
-  //   element: <SidebarLayout />,
-  //   children: [
-  //     {
-  //       path: '/',
-  //       element: <Navigate to="dashboard" replace />
-  //     },
-  //     {
-  //       path: 'dashboard',
-  //       element: <MainDashboard />
-  //     },
-  //     {
-  //       path: 'rewards',
-  //       element: <MainReward />
-  //     },
-  //     {
-  //       path: 'rewards/daily-farming',
-  //       element: <RewardDailyFarming />
-  //     },
-  //     {
-  //       path: 'rewards/nobility',
-  //       element: <RewardNobilityReward />
-  //     },
-  //     {
-  //       path: 'rewards/nobility/golden',
-  //       element: <NobilityGoldenPhase />
-  //     },
-  //     {
-  //       path: 'rewards/nobility/passive',
-  //       element: <NobilityPassivePhase />
-  //     },
-  //     {
-  //       path: 'rewards/nobility/chest',
-  //       element: <NobilityChestPhase />
-  //     },
-  //     {
-  //       path: 'rewards/surprise',
-  //       element: <RewardSurprise />
-  //     },
-  //     {
-  //       path: 'rewards/tree-phase',
-  //       element: <NobilityGoldenPhase />
-  //     },
-  //     {
-  //       path: 'rewards/quest',
-  //       element: <RewardQuest />
-  //     },
-  //     {
-  //       path: 'achievement',
-  //       element: <MainAchievement />
-  //     },
-  //     {
-  //       path: 'achievement/distribution',
-  //       element: <AchieveDistribution />
-  //     },
-  //     {
-  //       path: 'smart',
-  //       element: <MainSmart />
-  //     },
-  //     {
-  //       path: 'golden',
-  //       element: <MainGolden />
-  //     },
-  //     {
-  //       path: 'smt',
-  //       element: <MainSmt />
-  //     },
-  //     {
-  //       path: 'smt/getSmt',
-  //       element: <GetSmt />
-  //     },
-  //     {
-  //       path: 'smt/getSmt/detail',
-  //       element: <GetSmtDetail />
-  //     },
-  //     {
-  //       path: 'smt/getSmtc',
-  //       element: <GetSmtc />
-  //     },
-  //     {
-  //       path: 'messages',
-  //       element: <MainMessage />
-  //     },
-  //     {
-  //       path: 'messages/detail',
-  //       element: <MessageDetail />
-  //     },
-  //     {
-  //       path: 'legal',
-  //       element: <MainLegal />
-  //     }
-  //   ]
-  // },
-  // // WEALTH MENU ROUTER
-  // {
-  //   path: 'wealth',
-  //   element: <SidebarLayout />,
-  //   children: [
-  //     {
-  //       path: '/',
-  //       element: <Navigate to="dashboard" replace />
-  //     },
-  //     {
-  //       path: 'dashboard',
-  //       element: <WealthDashboard />
-  //     },
-  //     {
-  //       path: 'team',
-  //       element: <WealthTeam />
-  //     },
-  //     {
-  //       path: 'team/general',
-  //       element: <TeamGeneral />
-  //     },
-  //     {
-  //       path: 'team/general/detail/:address/:level',
-  //       element: <GeneralDetail />
-  //     },
-  //     {
-  //       path: 'team/general/member/:address/:level',
-  //       element: <GeneralMember />
-  //     },
-  //     {
-  //       path: 'team/direct',
-  //       element: <DirectSales />
-  //     },
-  //     {
-  //       path: 'team/direct/detail/:address/:level',
-  //       element: <DirectDetail />
-  //     },
-  //     {
-  //       path: 'tools',
-  //       element: <WealthTools />
-  //     },
-  //     {
-  //       path: 'history_notyet',
-  //       element: <MainSmt />
-  //     }
-  //   ]
-  // }
+  // MAIN MENU ROUTER
+  {
+    path: 'main',
+    element: <SidebarLayout />,
+    children: [
+      {
+        path: '/',
+        element: <Navigate to="dashboard" replace />
+      },
+      {
+        path: 'dashboard',
+        element: <MainDashboard />
+      },
+      {
+        path: 'rewards',
+        element: <MainReward />
+      },
+      {
+        path: 'rewards/daily-farming',
+        element: <RewardDailyFarming />
+      },
+      {
+        path: 'rewards/nobility',
+        element: <RewardNobilityReward />
+      },
+      {
+        path: 'rewards/nobility/golden',
+        element: <NobilityGoldenPhase />
+      },
+      {
+        path: 'rewards/nobility/passive',
+        element: <NobilityPassivePhase />
+      },
+      {
+        path: 'rewards/nobility/chest',
+        element: <NobilityChestPhase />
+      },
+      {
+        path: 'rewards/surprise',
+        element: <RewardSurprise />
+      },
+      {
+        path: 'rewards/tree-phase',
+        element: <NobilityGoldenPhase />
+      },
+      {
+        path: 'rewards/quest',
+        element: <RewardQuest />
+      },
+      {
+        path: 'achievement',
+        element: <MainAchievement />
+      },
+      {
+        path: 'achievement/distribution',
+        element: <AchieveDistribution />
+      },
+      {
+        path: 'smart',
+        element: <MainSmart />
+      },
+      {
+        path: 'golden',
+        element: <MainGolden />
+      },
+      {
+        path: 'smt',
+        element: <MainSmt />
+      },
+      {
+        path: 'smt/getSmt',
+        element: <GetSmt />
+      },
+      {
+        path: 'smt/getSmt/detail',
+        element: <GetSmtDetail />
+      },
+      {
+        path: 'smt/getSmtc',
+        element: <GetSmtc />
+      },
+      {
+        path: 'messages',
+        element: <MainMessage />
+      },
+      {
+        path: 'messages/detail',
+        element: <MessageDetail />
+      },
+      {
+        path: 'legal',
+        element: <MainLegal />
+      }
+    ]
+  },
+  // WEALTH MENU ROUTER
+  {
+    path: 'wealth',
+    element: <SidebarLayout />,
+    children: [
+      {
+        path: '/',
+        element: <Navigate to="dashboard" replace />
+      },
+      {
+        path: 'dashboard',
+        element: <WealthDashboard />
+      },
+      {
+        path: 'team',
+        element: <WealthTeam />
+      },
+      {
+        path: 'team/general',
+        element: <TeamGeneral />
+      },
+      {
+        path: 'team/general/detail/:address/:level',
+        element: <GeneralDetail />
+      },
+      {
+        path: 'team/general/member/:address/:level',
+        element: <GeneralMember />
+      },
+      {
+        path: 'team/direct',
+        element: <DirectSales />
+      },
+      {
+        path: 'team/direct/detail/:address/:level',
+        element: <DirectDetail />
+      },
+      {
+        path: 'tools',
+        element: <WealthTools />
+      },
+      {
+        path: 'history_notyet',
+        element: <MainSmt />
+      }
+    ]
+  }
 ];
 
 export default routes;
